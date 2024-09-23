@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+    background: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+img,
+video,
+iframe {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
